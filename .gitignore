@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Run artifacts (do not commit)
+10_baseline_sc/logs/
+10_baseline_sc/runs/
+10_baseline_sc/figs/
+
+# Aggregate results (optional: ignore to keep repo clean)
+10_baseline_sc/results.csv
+
+# OS
+.DS_Store
+Thumbs.db
